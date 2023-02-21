@@ -1,1 +1,1 @@
-g++ *.hpp *.cpp  -lallegro -lm -lallegro_primitives
+g++ *.hpp *.cpp  -lallegro -lm -lallegro_primitives -g

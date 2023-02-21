@@ -29,6 +29,10 @@ public:
     ALLEGRO_BITMAP* GetBitmap();
     Point2d GetRenderLocation();
 
+    //Returns true if the point is inside the isometric projection
+    //of the triangle
+    bool isPointInsideProjection(Point2d input);
+
     Point2d isoP1;
     Point2d isoP2;
     Point2d isoP3;
